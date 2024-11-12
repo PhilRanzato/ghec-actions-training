@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
     - name: "TriggeredBy"
       run: echo "${{ github.event_name }}"
