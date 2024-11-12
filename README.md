@@ -2,6 +2,7 @@
 
 <!-- testing action -->
 <!-- skipping ci -->
+<!-- modify with pr -->
 
 Repo for the `GitHub Actions Fundamentals` training.
 
