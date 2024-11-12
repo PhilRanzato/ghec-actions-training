@@ -19,6 +19,7 @@ jobs:
     steps:
     - name: "TriggeredBy"
       run: echo "${{ github.event_name }}"
+    - uses: actions/checkout@v4
     - name: "Branch"
       run: echo "${{ github.branch }}"
     - name: "List all files of the repo"
